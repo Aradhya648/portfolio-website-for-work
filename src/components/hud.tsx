@@ -57,9 +57,6 @@ export function Hud({ chapter }: { chapter: string }) {
         <span key={pos} className={`absolute h-3 w-3 border-[var(--muted)] ${pos}`} />
       ))}
 
-      <span className="hud-label absolute bottom-6 left-1/2 hidden -translate-x-1/2 text-[var(--muted)] sm:block sm:bottom-9">
-        {STUDIO.location}
-      </span>
     </div>
   );
 }

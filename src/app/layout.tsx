@@ -14,8 +14,14 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: `${STUDIO.name} — ${STUDIO.tagline}`,
-  description: STUDIO.tagline,
+  title: `${STUDIO.name} — Independent web studio, ${STUDIO.location}`,
+  description:
+    "Offcut is an independent web studio in Bangalore. Every site cut from scratch: see three recent builds, each in its own look.",
+  openGraph: {
+    title: `${STUDIO.name} — Independent web studio`,
+    description: "Every site cut from scratch. Here are three offcuts.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

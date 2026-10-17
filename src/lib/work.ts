@@ -14,6 +14,8 @@ export type Project = {
   stack: string[];
   video: string;
   poster: string;
+  /** 2x capture of the live site's mobile hero, used in the cut reel. */
+  mobile: string;
   theme: Theme;
 };
 
@@ -38,6 +40,7 @@ export const PROJECTS: Project[] = [
     stack: ["Next.js", "Motion", "Tailwind"],
     video: "/work/prettydangood.mp4",
     poster: "/work/prettydangood-poster.jpg",
+    mobile: "/work/prettydangood-mobile.jpg",
     theme: { bg: "#f3efe7", fg: "#131210", accent: "#7a1f36", muted: "rgba(19,18,16,0.5)" },
   },
   {
@@ -53,6 +56,7 @@ export const PROJECTS: Project[] = [
     stack: ["Astro"],
     video: "/work/lear.mp4",
     poster: "/work/lear-poster.jpg",
+    mobile: "/work/lear-mobile.jpg",
     theme: { bg: "#08060a", fg: "#f5eef4", accent: "#ff2d87", muted: "rgba(245,238,244,0.5)" },
   },
   {
@@ -68,6 +72,7 @@ export const PROJECTS: Project[] = [
     stack: ["Next.js", "Lenis", "Canvas"],
     video: "/work/bitsnbytes.mp4",
     poster: "/work/bitsnbytes-poster.jpg",
+    mobile: "/work/bitsnbytes-mobile.jpg",
     theme: { bg: "#8f1a2d", fg: "#ffe8cf", accent: "#ff9a1f", muted: "rgba(255,232,207,0.6)" },
   },
 ];

@@ -1,9 +1,8 @@
-// Single source of truth for studio identity. NAME and CAL_URL are placeholders
-// until the real studio name and Cal.com booking link are confirmed.
+// Single source of truth for studio identity.
 export const STUDIO = {
-  name: "Studio",
+  name: "Offcut",
   tagline: "Websites that look like nobody else's.",
   location: "Bangalore, India",
-  calUrl: "https://cal.com/", // TODO: real Cal.com link
+  calUrl: "https://cal.com/aradhya-mishra-iy3xsy",
   email: "",
 };
